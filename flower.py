@@ -2,9 +2,6 @@ from polygon import polygon
 import turtle as pen
 
 class flower(polygon):
-    """instantiates a flower object with the given values, inheriting from polygon"""
-    def __init__(self, speed, r, g, b, size, length, sides, x, y):
-        super().__init__(speed, r, g, b, size, length, sides, x, y)
 
     def get_turn_degrees(self, sides):
         """gets the amount of degrees needed for the next left turn to draw the star polygon"""

@@ -2,9 +2,6 @@ from flower import flower
 import turtle as pen
 
 class rose(flower):
-  """instantiates a rose object with the given values, inheriting from flower"""
-  def __init__(self, speed, r, g, b, size, length, sides, x, y):
-    super().__init__(speed, r, g, b, size, length, sides, x, y)
 
   def get_turn_degrees(self, sides):
       """gets the amount of degrees needed for the next left turn to draw the spiral/reverse spiral"""
