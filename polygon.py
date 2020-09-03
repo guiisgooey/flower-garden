@@ -1,5 +1,4 @@
 import turtle as pen
-import math
 
 class polygon:
 

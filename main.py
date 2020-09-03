@@ -41,10 +41,11 @@ s1 = turtle.Screen()
 s1.title("🌸 Flower Garden 🌸")
 
 print("Welcome to your garden!")
-time_of_day = time()
+time()
 
 turtle.colormode(255)
 p1 = polygon(10, 0, 0, 255, 5, 100, 4, 250, -150)
+
 f1 = flower(10, 0, 0, 255, 5, 100, 4, 250, -150)
 f2 = flower(10, 255, 255, 0, 3, 100, 4, -300, -350)
 f3 = flower(10, 255, 0, 0, 10, 100, 4, -40, 0)
