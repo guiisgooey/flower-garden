@@ -53,9 +53,9 @@ r1 = rose(10, 255, 0, 255, 2, 100, 5, -40, -300)
 r2 = rose(10, 255, 255, 255, 2, 100, 7, -200, -350)
 r3 = rose(10, 255, 0, 0, 2, 50, 9, -400, -200)
 
-assert p1.get_turn_degrees(4) == 90
+assert p1.get_turn_degrees(3) == 120
 assert f1.get_turn_degrees(4) == 140
-assert r1.get_turn_degrees(4) == 90
+assert r1.get_turn_degrees(5) == 72
 
 f1.draw()
 f2.draw()
